@@ -11,6 +11,7 @@
 #include "clampi_internal.h"
 #include "mpi_wrapper.h"
 
+cl_conf_t clampi;
 
 /**** Initialization functions ****/
 int _cl_win_init(CMPI_Win *  win, MPI_Comm comm);

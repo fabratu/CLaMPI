@@ -256,7 +256,7 @@ typedef struct cl_conf{
     uint32_t htsize; /* Starting HT size */
     uint64_t memsize; /* Memory buffer size (in bytes) */
 } cl_conf_t;
-cl_conf_t clampi;
+extern cl_conf_t clampi;
 
 /* Utility macros */
 #define CL_HT_ENTRIES(c) (c->ht_entries)
