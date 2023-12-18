@@ -33,5 +33,5 @@ AS_IF([test "x$enable_stats" = "xyes"], [
 ])
 
 
-AC_CONFIG_FILES([Makefile src/Makefile tests/Makefile])
+AC_CONFIG_FILES([Makefile src/Makefile])
 AC_OUTPUT
